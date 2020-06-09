@@ -1,0 +1,1 @@
+<view><block wx:if="{{result}}"><view class="recordDetailPage"><view class="recordDetailCont"><view class="noticeDetailTitle">{{''+result.title+''}}<view class="times">{{''+result.startTime+"   至   "+result.endTime+''}}</view></view><view class="noticeDetailCont">{{''+result.content+''}}</view></view></view></block></view>

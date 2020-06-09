@@ -1,0 +1,847 @@
+/* 公共css */
+body {
+	font-size: 28rpx;
+	color: #222222;
+}
+
+.whiteBg {
+	background-color: #FFFFFF;
+}
+
+.nowrap {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.endBox {
+	width: 750rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	color: #DDDDDD;
+	font-size: 24rpx;
+}
+
+.title-contents {
+	height: calc(var(--status-bar-height) + 108rpx);
+
+}
+
+.status {
+	height: var(--status-bar-height);
+	background: #FFFFFF;
+}
+
+.top-view {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+
+.titles {
+	width: 100%;
+	height: 108rpx;
+	position: fixed;
+	top: var(--status-bar-height);
+	background: #ffffff;
+	display: flex;
+	flex-direction: row;
+	padding: 20rpx;
+	box-sizing: border-box;
+	z-index: 9999;
+}
+
+.title-contents .backIocn {
+	line-height: 68rpx;
+}
+
+.topViewText {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 16px;
+}
+
+.citySel {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 30rpx;
+	height: 68rpx;
+}
+
+.citySel .cityName {
+	display: block;
+	max-width: 150rpx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 30rpx;
+	color: #222222;
+	margin-right: 5rpx;
+}
+
+.downIcon {
+	font-family: uniicons;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	width: 20px;
+	color: #222222;
+}
+
+.searchInputBox {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	background: #F7F7F7;
+	margin-left: 18rpx;
+	height: 68rpx;
+	padding: 0 16rpx;
+	border-radius: 5px;
+}
+
+.searchInputBox .uni-input {
+	flex: 1;
+	margin-left: 10rpx;
+	font-size: 28rpx;
+}
+
+.searchCancel {
+	padding: 0 10rpx;
+	line-height: 68rpx;
+	font-size: 28rpx;
+	color: #555555;
+	margin-left: 20rpx;
+}
+
+.noData {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+	text-align: center;
+}
+
+.noData .noDataImg {
+	width: 200rpx;
+	height: 196rpx;
+}
+
+.noData .noDataText {
+	font-size: 24rpx;
+	color: #B8B8B8;
+	display: block;
+	line-height: 34rpx;
+	margin-top: 20rpx;
+}
+
+/* 房源item */
+
+.goodsItem {
+	width: 100%;
+	height: 244rpx;
+	margin-bottom: 30rpx;
+	display: -webkit-box;
+}
+
+.goodsPic {
+	width: 328rpx;
+	height: 244rpx;
+	overflow: hidden;
+	border-radius: 10rpx;
+	position: relative;
+}
+
+.goodsPic .goodsImage {
+	width: 100%;
+	height: 100%;
+}
+
+.goodsTag {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80rpx;
+	height: 36rpx;
+	text-align: center;
+	line-height: 36rpx;
+	display: block;
+	background: linear-gradient(116deg, #FFEEA0 0%, #FFD561 90%);
+	color: #222222;
+	font-size: 24rpx;
+	z-index: 1;
+}
+
+.goodsInfo {
+	margin-left: 20rpx;
+	width: 342rpx;
+	height: 244rpx;
+}
+
+.goodsName {
+	font-size: 30rpx;
+	color: #555555;
+	line-height: 42rpx;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.goodsAddress {
+	width: 100%;
+	font-size: 24rpx;
+	color: #b8b8b8;
+	line-height: 34rpx;
+	margin-top: 10rpx;
+}
+
+.goodsPrice {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 20rpx;
+}
+
+.priceLabel {
+	display: inline-block;
+	font-size: 24rpx;
+	color: #555555;
+	vertical-align: bottom;
+}
+
+.priceNum {
+	flex: 1;
+	display: inline-block;
+	color: #CD282F;
+	font-size: 34rpx;
+	margin-left: 10rpx;
+	line-height: 36rpx;
+}
+
+.goodsPrice .discount {
+	color: #CD282F;
+	font-size: 26rpx;
+	float: right;
+	display: block;
+}
+
+.goodsStatus {
+	width: 100%;
+	height: 40rpx;
+	line-height: 40rpx;
+	display: flex;
+	border-radius: 8rpx;
+	overflow: hidden;
+	margin-top: 20rpx;
+}
+
+.statusName {
+	display: block;
+	width: 92rpx;
+	height: 100%;
+	text-align: center;
+	background: #CD282F;
+	color: #ffffff;
+	font-size: 24rpx;
+}
+
+.goodsStatus1 .statusName {
+	background: #00BBC3;
+}
+
+.goodsStatus3 .statusName {
+	background: #999999;
+}
+
+.goodsTime {
+	flex: 1;
+	padding-left: 20rpx;
+	background-color: #F7F7F7;
+	color: #555555;
+	font-size: 20rpx;
+}
+
+.listTabs {
+	height: 56rpx;
+	padding: 10rpx 0 30rpx 0;
+}
+
+.tabItem {
+	float: left;
+	display: flex;
+	line-height: 52rpx;
+	border: 1rpx solid #B8B8B8;
+	padding: 0 20rpx;
+	margin-right: 20rpx;
+	align-items: center;
+	color: #B8B8B8;
+	border-radius: 6rpx;
+}
+
+.tabActive {
+	color: #CD282F !important;
+	border: 1rpx solid #CD282F !important;
+}
+
+.sortIcon {
+	width: 30rpx;
+	height: 30rpx;
+	margin-left: 10rpx;
+	display: inline-block;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAhxJREFUSA3lVj1rG0EQvbmLYuNGKVUnhQpBjJU+IYFAKjUpAsb/w6AEl678R1y4UWVIlbRCESKIIKGPVk0KGQyWOGvz3llrzmZ3b+8CVqGFY3dn3pt3czc3t6KUCoMgULieckgAYXlKRWpRk9luZGyf8LMiz3k0Gr2J4/gMXCUix9VqtZ03jvBFY3hX9WAw2IfID/DKFAN3jukdxHvc+4zcxTUcDl+CdKlFKcI1bfT5iGqMd3FNp9MKBL6DWNHk1Jz4iEnZnEsv4fF4XF4ul8zUmhV9xBDrVFw7M4WRxS4KqYXAfLfOQQyx5DiBcDqFEShaLBbnmN9mBdJ+YtecSNtMs1MYBXMCUsNEzLA1wP3mwjiFQbzC53LrCmDykYPr2uS7t+HRbNdPwtkyf9UOPqvVqilKnLj7x7deKFGxhOFpvd+9eOzTe2dAtVIfcESoq7znBDRgcN9DxCrsLK4Xe1FTAvHuwTobcsD9qvem2Sn8qtOZ70SlTyBOTGSLbUIOuRZ/YnYKE1Hrt2el0vOPgQQzV6DEBwyx5GRhM4UZ4PXv9gTFgsyTX6AlpsyJIdYCeGD2EiYDFdpDU2AXu3kQ4W5zQx8xBp/R5C1Mdv1P96dE4Rdknupm6FKw0WdUsBhzCSfi/W4rCtUhjh5/eSHTI2TassS3m4u2zKI83gm5uTPWKSBT73Oa5qTnwsLpIEXWGxNmr+YRt8hN/w9H/gFFR+Qx4zxJrgAAAABJRU5ErkJggg==);
+	background-size: cover;
+}
+
+.sortIconUp {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAixJREFUSA3tVk1LG1EUnRtDIgjNNtu4SGhFRINQKHRX2lUWLto/4a4L/QMtFLrub3DlwlVFaEHoqpBoQUogNdsu60Y0yeR6js7TEO68eUNTS6EDw31z7z3nzL3vY0ZUtRBFkeK+z0siCMt9KlKLmqz2r1z/nvDvTpGQAFeuxXX0aOVlrPKBcySRbK597+zkma9rzbzC7aXVlsa6iyUydyMmsczJxtpJZy9UPLdw++HqU9XxPgTmp0QuRArPUfnhlN98pHDw4kKlKwCwqmlRks8zxhxTyXAGCX9bXl/U8fgj2lsxOBKXVpjD3PScu0im8MnSenU4HBzgbKvewVJGyGEuMSkZt26v8I9ms3IZD1FpFFRFwrpIDLG3KsbAK/zrPH6rkQbPm+MnBtg37tmyRcvpfFKQTzrWx6LizXP5zqroCNjP7tm0XNpm4A86c22nWb+Ht4Xdbvc1BN/hDZNTKkweR3CMe7ter79PQ3iFAXqQV5RCCWYhTZR+70eCBKga53LU8pEYsb1Go7HByo1Y9o8AgeVy+RXsoUVg+ZibYExRh/HuYybVarWLYrHYAuGxA6VZ5jCXmLQc5/e22iXR9vv96mAw+IL2m6cYRE9LpdITiP6cxFljcIR/nUgI8mcgsoivYyGi7kUyW+0SabE9TiH+AveZ83NMH2POF2KDWz1J1uv1mqPRiHuU/01bWMFfJ+NZY7b6/391VpdmFs+1uGamCiKe1Vxgs+QM4ZIr67DhR/d0tegAAAAASUVORK5CYII=) !important;
+	background-size: cover !important;
+}
+
+/* .goodsBox .goodsItem:last-child{
+	margin-bottom: 0 !important;
+} */
+
+/* form */
+.formInputBox {
+	height: 102rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+
+.formInputLabel {
+	min-width: 156rpx;
+	color: #888888;
+	font-size: 30rpx;
+}
+
+.formInputCont {
+	flex: 1;
+}
+
+.formInputCont .uni-input {
+	font-size: 30rpx;
+	color: #222222;
+}
+
+.pickerView {
+	position: relative;
+	height: 80rpx;
+}
+
+.pickerView:active {
+	background-color: #f7f7f7;
+}
+
+.pickerValue {
+	line-height: 80rpx;
+}
+
+.pickerValue.noBirData {
+	color: #CECECE;
+}
+
+.pickerArrowIcon {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* 记录 */
+.recordItem {
+	border-bottom: 20rpx solid #F7F7F7;
+	background-color: #fff;
+	padding: 30rpx 30rpx 70rpx 30rpx;
+	position: relative;
+}
+
+.paySignItem {
+	border-bottom: 20rpx solid #F7F7F7;
+	background-color: #fff;
+	padding: 0 0 70rpx 0;
+	position: relative;
+}
+
+.recordLookAll {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 60rpx;
+	padding-bottom: 30rpx;
+	color: #B8B8B8;
+	font-size: 24rpx;
+	line-height: 50rpx;
+	text-align: center;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .3), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+}
+
+.recordLookAll .lookAllText {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 5rpx;
+}
+
+.recordLookAll .arrowIcons {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.recordPersonBox {
+	display: flex;
+	height: 80rpx;
+	justify-content: center;
+	align-items: center;
+}
+
+.recordPersonInfo {
+	flex: 1;
+	height: 100%;
+	margin-right: 20rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recordPersonBox .nowStatus {
+	width: 156rpx;
+	height: 52rpx;
+	line-height: 52rpx;
+	border: 1rpx solid #CD282F;
+	color: #CD282F;
+	text-align: center;
+	font-size: 24rpx;
+}
+
+.recordPersonBox .czBtns {
+	width: 152rpx;
+	height: 56rpx;
+	display: flex;
+	align-items: center;
+}
+
+.recordPersonBox .czBtns .czIcons {
+	width: 56rpx;
+	height: 56rpx;
+	margin-left: 20rpx;
+}
+
+.recordPersonPic {
+	width: 68rpx;
+	height: 68rpx;
+	border-radius: 100%;
+	margin-right: 16rpx;
+}
+
+.recordPersonInfoCont {
+	flex: 1;
+}
+
+.recordPersonName {
+	font-size: 34rpx;
+	color: #222222;
+	line-height: 36rpx;
+	vertical-align: bottom;
+}
+
+.recordPersonBox .recordTime {
+	font-size: 22rpx;
+	color: #B8B8B8;
+	line-height: 24rpx;
+	margin-top: 10rpx;
+}
+
+.pagTagHead {
+	height: 96rpx;
+	display: flex;
+	align-items: center;
+	padding: 21rpx;
+	box-sizing: border-box;
+}
+
+.pagTagHead.payStatus1 {
+	background-color: #444444;
+}
+
+.pagTagHead.payStatus2 {
+	background-color: #00BBC3;
+}
+
+.recordItem .recordInfoBox {
+	padding-top: 30rpx;
+}
+
+.paySignItem .recordInfoBox {
+	padding: 30rpx 30rpx 0 30rpx;
+}
+
+.pagTagHeadLeft {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.pagTagHeadLeft .pagStatusImg {
+	width: 56rpx;
+	height: 56rpx;
+	margin-right: 16rpx;
+}
+
+.pagTagHeadLeft .pagStatusText {
+	font-size: 28rpx;
+	color: #FFFFFF;
+}
+
+.pagTagHeadBtn {
+	background-color: #CD282F;
+	color: #FFFFFF;
+	width: 156rpx;
+	height: 54rpx;
+	text-align: center;
+	line-height: 54rpx;
+	font-size: 24rpx;
+	border-radius: 6rpx;
+}
+
+.pagTagHeadBtn.status2 {
+	background-color: #FFFFFF !important;
+	color: #00BBC3 !important;
+}
+
+.recordInfoItem {
+	font-size: 26rpx;
+	color: #555555;
+	line-height: 42rpx;
+	margin-bottom: 20rpx;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.recordFixHeader {
+	width: 750rpx;
+	height: 160rpx;
+	padding: 10rpx 30rpx 0 30rpx;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #fff;
+	z-index: 888;
+	box-shadow: 0 9px 11px 0 rgba(229, 229, 229, 0.3);
+}
+
+/* #ifdef H5 */
+.recordFixHeader {
+	top: calc(44px + env(safe-area-inset-top)) !important;
+}
+
+/* #endif */
+.commRecordList {
+	padding-top: 200rpx;
+}
+
+.recordScreenBox {
+	height: 80rpx;
+	display: flex;
+}
+
+.recordScreenBox .ScreenBox {
+	height: 80rpx;
+	position: relative;
+	margin-right: 40rpx;
+}
+
+.recordFixHeader .clearDatePicker {
+	position: absolute;
+	height: 50rpx;
+	bottom: -50rpx;
+	width: 100%;
+	left: 0;
+	background-color: #00BBC3;
+	padding: 0 30rpx;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.recordFixHeader .clearDatePicker .clearText {
+	flex: 1;
+	font-size: 26rpx;
+	color: #FFFFFF;
+}
+
+.screenItem {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 80rpx;
+	color: #888888;
+}
+
+.screenItemLabel {
+	margin-right: 10rpx;
+}
+
+.recordScreenBox .pickers {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.recordScreenBox .clear {
+	position: absolute;
+	top: 50%;
+	right: 20rpx;
+	transform: translateY(-50%);
+}
+
+.recordFixBtn {
+	width: 116rpx;
+	height: 116rpx;
+	position: fixed;
+	bottom: 84rpx;
+	right: 50rpx;
+	z-index: 887;
+	background-color: #d03b41;
+	box-shadow: 6rpx 6rpx 20rpx 6rpx rgba(113, 133, 133, .3);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	border-radius: 100%;
+}
+
+.recordFixBtn .fixBtnText {
+	font-size: 24rpx;
+	padding-bottom: 10rpx;
+}
+
+.recordDetailPage {
+	padding: 30rpx;
+}
+
+.recordDetailCont {
+	margin-top: 50rpx;
+}
+
+.recordDetailItem {
+	margin-bottom: 50rpx;
+}
+
+.detailHead {
+	display: flex;
+	height: 48rpx;
+	justify-content: center;
+	align-items: center;
+}
+
+.detailHeadTitle {
+	flex: 1;
+	font-size: 34rpx;
+}
+
+.detailHeadLink {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.detailHeadLinkLabel {
+	font-size: 24rpx;
+	color: #B8B8B8;
+	margin-right: 10rpx;
+}
+
+.recordDetailText {
+	line-height: 48rpx;
+	color: #555555;
+	font-size: 30rpx;
+	margin-top: 20rpx;
+}
+
+.recordDetailRate {
+	display: block;
+	margin-top: 20rpx;
+}
+
+.recordAddItem {
+	margin-bottom: 40rpx;
+}
+
+.recordAddItemHead {
+	position: relative;
+	padding-left: 28rpx;
+	color: #101010;
+	font-size: 34rpx;
+}
+
+.needTag {
+	color: #F44A33;
+	position: absolute;
+	left: 5rpx;
+	top: 5rpx;
+	font-size: 35rpx;
+}
+
+.recordSelItem {
+	height: 50rpx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 10rpx;
+}
+
+.recordSelInput {
+	flex: 1;
+	padding-left: 28rpx;
+	margin-right: 30rpx;
+	font-size: 30rpx;
+	color: #CECECE;
+}
+
+.processLabelBox {
+	display: flex;
+	align-items: center;
+}
+
+.processLabelBox_R {
+	flex: 1;
+}
+
+.processLabelBox_R .recordDetailRate {
+	margin-top: 0;
+}
+
+.hasSeled {
+	color: #555555;
+}
+
+.recordAddTextArea {
+	padding: 28rpx;
+	height: 300rpx;
+}
+
+.recordAddSubBtn {
+	width: 100%;
+	height: 130rpx;
+	box-shadow: 0 -4rpx 10rpx 8rpx rgba(112, 112, 112, .1);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.recordAddSubBtn .subBtn {
+	width: 80%;
+	height: 92rpx;
+	line-height: 92rpx;
+	font-size: 32rpx;
+}
+
+.annexUploadBtn {
+	width: 140rpx;
+	height: 54rpx;
+	text-align: center;
+	line-height: 54rpx;
+	color: #CD282F;
+	border: 1rpx solid #CD282F;
+	margin-top: 30rpx;
+	margin-left: 30rpx;
+	font-size: 24rpx;
+}
+
+.annexItemBox {
+	position: relative;
+	width: 142rpx;
+	height: 56rpx;
+}
+
+.annexList {
+	margin-left: 30rpx;
+	margin-top: 30rpx;
+	padding-bottom: 10rpx;
+}
+
+.annexItem {
+	margin-bottom: 30rpx;
+}
+
+.annexItem:last-child {
+	margin-bottom: 0;
+}
+
+.lookAnnex {
+	display: inline-block;
+	line-height: 54rpx;
+	width: 140rpx;
+	height: 54rpx;
+	border: 1rpx solid #555555;
+	font-size: 24rpx;
+	color: #555555;
+	text-align: center;
+	margin-top: 10rpx;
+}
+
+.annexItem .lookAnnex {
+	margin-top: 0;
+}
+
+.clearAnnex {
+	position: absolute;
+	top: -14rpx;
+	right: -14rpx;
+}
+
+.annexTitle {
+	margin-top: 20rpx;
+}
+
+.annexTitleLabel {
+	font-size: 30rpx;
+	color: #555555;
+	line-height: 60rpx;
+}
+
+.annexTitle .uni-input {
+	font-size: 30rpx;
+}
+.visitResBox{
+	flex: 1;
+	padding-left: 28rpx;
+	overflow: hidden;
+}
+.visitResInfo1{
+	line-height: 42rpx;
+}
+.customerName{
+	margin-right: 20rpx;
+	line-height: 42rpx;
+}
+.heiAuto{
+	height: auto;
+}
+.tipPoint{
+	width: 16rpx;
+	height: 16rpx;
+	background-color: #CD282F;
+	border-radius: 50%;
+}

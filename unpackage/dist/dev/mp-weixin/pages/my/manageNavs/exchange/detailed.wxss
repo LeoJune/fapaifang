@@ -1,0 +1,19 @@
+
+.detailedItem{
+	padding: 30rpx;
+	background-color: #FFFFFF;
+	margin-bottom: 20rpx;
+}
+page {
+background-color: #f7f7f7;
+}
+.detailsCont{
+	font-size: 26rpx;
+	color: #555555;
+	line-height: 36rpx;
+	margin-top: 20rpx;
+}
+.detailsInfo{
+	padding: 20rpx 0;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "激励明细",
+  "backgroundColor": "#F7F7F7",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,452 @@
+{
+	"pages": [
+		// #ifndef MP-WEIXIN
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				}
+			}
+		},
+		// #endif
+		// #ifdef MP-WEIXIN
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "法拍网",
+				"enablePullDownRefresh": true
+			}
+		},
+		// #endif
+		{
+			"path": "pages/consultant/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/my/login",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/my/register",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/my/setPassword",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		// #ifndef MP-WEIXIN
+		{
+			"path": "pages/home/searchDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"color": "#FD575C",
+						"offset": "60px"
+					}
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		// #endif
+		// #ifdef MP-WEIXIN
+		{
+			"path": "pages/home/searchDetail",
+			"style": {
+				"navigationBarTitleText": "房源搜索",
+				"enablePullDownRefresh": true
+			}
+		},
+		// #endif
+		{
+			"path": "pages/home/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "拍品详情页"
+			}
+		}, {
+			"path": "pages/home/areaHousing",
+			"style": {
+				"navigationBarTitleText": "区域选房"
+			}
+		}, {
+			"path": "pages/home/leakHousing",
+			"style": {
+				"navigationBarTitleText": "捡漏必看"
+			}
+		}, {
+			"path": "pages/my/forgetpwd",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/my/forgetpwd2",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/my/selfPage",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		}, {
+			"path": "pages/my/navs/myCollection",
+			"style": {
+				"navigationBarTitleText": "收藏"
+			}
+		}, {
+			"path": "pages/my/navs/history",
+			"style": {
+				"navigationBarTitleText": "最近浏览"
+			}
+		}, {
+			"path": "pages/my/edit",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		}, {
+			"path": "pages/my/navs/recordTypeC",
+			"style": {
+				"navigationBarTitleText": "交易记录"
+			}
+
+		}, {
+			"path": "pages/my/navs/recordTypeB",
+			"style": {
+				"navigationBarTitleText": "交易记录"
+			}
+		}, {
+			"path": "pages/my/navs/feedback",
+			"style": {
+				"navigationBarTitleText": "帮助与反馈"
+			}
+		}, {
+			"path": "pages/my/manageNavs/journal/list",
+			"style": {
+				"navigationBarTitleText": "日志"
+			}
+		}, {
+			"path": "pages/my/manageNavs/journal/detail",
+			"style": {
+				"navigationBarTitleText": "日志详情"
+			}
+		}, {
+			"path": "pages/my/manageNavs/journal/add",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/manageNavs/searchCustomer",
+			"style": {
+				"navigationBarTitleText": "选择一个客户"
+			}
+		}, {
+			"path": "pages/my/manageNavs/searchHouse",
+			"style": {
+				"navigationBarTitleText": "选择一个房源"
+			}
+		}, {
+			"path": "pages/my/manageNavs/searchVisit",
+			"style": {
+				"navigationBarTitleText": "选择客户和房源"
+			}
+		}, {
+			"path": "pages/my/manageNavs/returnVisit/list",
+			"style": {
+				"navigationBarTitleText": "回访"
+			}
+		}, {
+			"path": "pages/my/manageNavs/returnVisit/detail",
+			"style": {
+				"navigationBarTitleText": "回访详情"
+			}
+		}, {
+			"path": "pages/my/manageNavs/returnVisit/add",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/manageNavs/contract/list",
+			"style": {
+				"navigationBarTitleText": "合同"
+			}
+		}, {
+			"path": "pages/my/manageNavs/contract/detail",
+			"style": {
+				"navigationBarTitleText": "合同详情"
+			}
+		}, {
+			"path": "pages/my/manageNavs/contract/add",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/manageNavs/payTag/list",
+			"style": {
+				"navigationBarTitleText": "付款标记"
+			}
+		}, {
+			"path": "pages/my/manageNavs/payTag/detail",
+			"style": {
+				"navigationBarTitleText": "付款标记详情"
+			}
+		}, {
+			"path": "pages/my/manageNavs/inquire/list",
+			"style": {
+				"navigationBarTitleText": "尽职调查"
+			}
+		}, {
+			"path": "pages/my/manageNavs/inquire/detail",
+			"style": {
+				"navigationBarTitleText": "尽职调查详情"
+			}
+		}, {
+			"path": "pages/my/manageNavs/loan/list",
+			"style": {
+				"navigationBarTitleText": "贷款"
+			}
+		}, {
+			"path": "pages/my/manageNavs/loan/detail",
+			"style": {
+				"navigationBarTitleText": "贷款详情"
+			}
+		}, {
+			"path": "pages/my/manageNavs/hasJoin/list",
+			"style": {
+				"navigationBarTitleText": "参拍"
+			}
+		}, {
+			"path": "pages/my/manageNavs/hasJoin/detail",
+			"style": {
+				"navigationBarTitleText": "参拍详情页"
+			}
+		}, {
+			"path": "pages/my/manageNavs/transfer/list",
+			"style": {
+				"navigationBarTitleText": "办理过户"
+			}
+		}, {
+			"path": "pages/my/manageNavs/transfer/detail",
+			"style": {
+				"navigationBarTitleText": "办理过户详情页"
+			}
+		}, {
+			"path": "pages/my/manageNavs/vacate/list",
+			"style": {
+				"navigationBarTitleText": "腾退"
+			}
+		}, {
+			"path": "pages/my/manageNavs/vacate/detail",
+			"style": {
+				"navigationBarTitleText": "腾退详情页"
+			}
+		}, {
+			"path": "pages/my/manageNavs/handed/list",
+			"style": {
+				"navigationBarTitleText": "交房"
+			}
+		}, {
+			"path": "pages/my/manageNavs/handed/detail",
+			"style": {
+				"navigationBarTitleText": "交房详情页"
+			}
+		}, {
+			"path": "pages/my/manageNavs/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		}, {
+            "path" : "pages/my/manageNavs/notice/listC",
+            "style" : {
+				"navigationBarTitleText": "公告"
+			}
+        }, {
+			"path": "pages/my/manageNavs/notice/detail",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		}, {
+			"path": "pages/my/manageNavs/notice/add",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/manageNavs/staff/list",
+			"style": {
+				"navigationBarTitleText": "员工",
+				"backgroundColor": "#F7F7F7"
+			}
+		},
+		{
+			"path": "pages/my/manageNavs/staff/detail",
+			"style": {
+				"navigationBarTitleText": "员工详情"
+			}
+		},
+		{
+			"path": "pages/my/manageNavs/staff/edit",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/my/manageNavs/staff/add",
+			"style": {
+				"navigationBarTitleText": "新增员工"
+			}
+		},
+		{
+			"path": "pages/my/manageNavs/staff/distribution",
+			"style": {
+				"navigationBarTitleText": "分配钻值"
+			}
+		}
+
+		, {
+			"path": "pages/my/manageNavs/staff/detailed",
+			"style": {
+				"navigationBarTitleText": "激励明细",
+				"backgroundColor": "#F7F7F7"
+			}
+		}, {
+			"path": "pages/my/manageNavs/exchange/index",
+			"style": {
+				"navigationBarTitleText": "兑换名额"
+			}
+		}, {
+			"path": "pages/my/manageNavs/exchange/detailed",
+			"style": {
+				"navigationBarTitleText": "兑换明细"
+			}
+		}, {
+			"path": "pages/my/manageNavs/process/index",
+			"style": {
+				"navigationBarTitleText": "流程明细"
+			}
+		}, {
+			"path": "pages/my/manageNavs/process/operate",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/consultant/charRoom",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		}
+
+	    ,{
+            "path" : "pages/home/areaPrice",
+            "style" : {
+				"navigationBarTitleText": "区域均价"
+			}
+        }
+        ,{
+            "path" : "pages/my/manageNavs/process/allDaily",
+            "style" : {
+				"navigationBarTitleText": "全部日志"
+			}
+        }
+        ,{
+            "path" : "pages/my/manageNavs/process/allReturn",
+            "style" : {
+				"navigationBarTitleText": "全部回访"
+			}
+        }
+        ,{
+            "path" : "pages/my/manageNavs/notice/edit",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/my/otherSelfPage",
+            "style" : {
+				"navigationBarTitleText": "个人主页"
+			}
+        }
+        ,{
+            "path" : "pages/my/agreement/agreement1",
+            "style" : {
+				"navigationBarTitleText": "服务协议"
+			}
+        }
+        ,{
+            "path" : "pages/my/agreement/agreement2",
+            "style" : {
+				"navigationBarTitleText": "隐私协议"
+			}
+        }
+        ,{
+            "path" : "pages/my/statisticsEmy",
+            "style" : {
+				"navigationBarTitleText": "员工成交排行"
+			}
+        }
+        ,{
+            "path" : "pages/my/statisticsCus",
+            "style" : {
+				"navigationBarTitleText": "推荐客户排行"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "APP",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#555555",
+		"selectedColor": "#CD282F",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "54px",
+		"fontSize": "12px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/images/homeIcon.png",
+			"selectedIconPath": "static/images/homeIcon_sel.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/consultant/index",
+			"iconPath": "static/images/consIcon.png",
+			"selectedIconPath": "static/images/consIcon_sel.png",
+			"text": "咨询"
+		}, {
+			"pagePath": "pages/my/index",
+			"iconPath": "static/images/myIcon.png",
+			"selectedIconPath": "static/images/myIcon_sel.png",
+			"text": "我的"
+		}]
+	}
+}

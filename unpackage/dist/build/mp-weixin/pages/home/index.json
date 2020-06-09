@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "法拍网",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

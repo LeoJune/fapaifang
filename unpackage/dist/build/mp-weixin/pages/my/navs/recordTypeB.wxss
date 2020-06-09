@@ -1,0 +1,1 @@
+.tags{padding:10rpx 0 10rpx 30rpx;overflow:hidden}.tags .tagItem{float:left;line-height:52rpx;border:1rpx solid #ddd;color:#b8b8b8;font-size:24rpx;padding:0 18rpx;margin-right:20rpx;margin-bottom:20rpx}.tags .tagItem.active{color:#cd282f;border:1rpx solid #cd282f}.goodsList{padding:30rpx}.recordList{border-top:20rpx solid #f7f7f7}

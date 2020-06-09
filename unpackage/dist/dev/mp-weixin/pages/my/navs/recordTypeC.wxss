@@ -1,0 +1,50 @@
+
+.tags{
+	padding: 10rpx 0 10rpx 30rpx;
+	overflow: hidden;
+}
+.tags .tagItem{
+	float: left;
+	line-height: 52rpx;
+	border: 1rpx solid #DDDDDD;
+	color: #B8B8B8;
+	font-size: 24rpx;
+	padding: 0 18rpx;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+}
+.tags .tagItem.active{
+	color: #CD282F;
+	border: 1rpx solid #CD282F;
+}
+.goodsList{
+	padding: 30rpx;
+}
+.recordStatus{
+	position: absolute;
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 100%;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	        transform: translateX(-50%) translateY(-50%);
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 0 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #FFFFFF;
+	font-size: 32rpx;
+	text-align: center;
+	overflow: hidden;
+	background-color: rgba(0,0,0,.35);
+}
+

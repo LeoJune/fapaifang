@@ -1,0 +1,11 @@
+
+page{
+	background-color: #F7F7F7;
+}
+.commRecordList{
+	padding-top: 170rpx;
+}
+.searchInputBox {
+	margin-left: 0;
+}
+

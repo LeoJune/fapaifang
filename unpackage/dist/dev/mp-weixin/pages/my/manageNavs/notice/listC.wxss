@@ -1,0 +1,29 @@
+
+page{
+	background-color: #F7F7F7;
+}
+.commRecordList{
+	padding-top: 5rpx;
+}
+.recordFixHeader{
+	height: 100rpx;
+}
+.searchInputBox {
+	margin-left: 0;
+}
+.readStatus{
+	font-size: 24rpx;
+	color: #CD282F;
+	margin-left: 10rpx;
+}
+.readStatus.hasRead{
+	color: #00BBC3;
+}
+.noticeTitle{
+	font-size: 32rpx;
+	color: #222222;
+}
+.noticeContent{
+	color: #666666;
+}
+

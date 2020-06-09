@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "日志",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-rate": "/components/uni-rate/uni-rate",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

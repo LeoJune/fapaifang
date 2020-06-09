@@ -1,0 +1,26 @@
+
+.tags{
+	padding: 10rpx 0 10rpx 30rpx;
+	overflow: hidden;
+}
+.tags .tagItem{
+	float: left;
+	line-height: 52rpx;
+	border: 1rpx solid #DDDDDD;
+	color: #B8B8B8;
+	font-size: 24rpx;
+	padding: 0 18rpx;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+}
+.tags .tagItem.active{
+	color: #CD282F;
+	border: 1rpx solid #CD282F;
+}
+.goodsList{
+	padding: 30rpx;
+}
+.recordList{
+	border-top: 20rpx solid #F7F7F7;
+}
+

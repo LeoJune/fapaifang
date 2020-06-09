@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "办理过户详情页",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

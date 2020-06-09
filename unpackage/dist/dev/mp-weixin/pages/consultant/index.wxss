@@ -1,0 +1,78 @@
+
+.consultHead {
+	width: 100%;
+	height: 140rpx;
+	background-color: #FFFFFF;
+	padding: 30rpx;
+	line-height: 80rpx;
+	font-size: 56rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.totalNum {
+	margin-left: 10rpx;
+	font-size: 32rpx;
+}
+.itemList {}
+.item {
+	height: 120rpx;
+	padding: 30rpx;
+	-webkit-transition: all linear .1s;
+	transition: all linear .1s;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.item:active {
+	background-color: #F7F7F7;
+}
+.picBox {
+	position: relative;
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 20rpx;
+	border: 1rpx solid #F7F7F7;
+}
+.itemPic {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 20rpx;
+}
+.badgeNum {
+	position: absolute;
+	right: -30rpx;
+	top: -18rpx;
+	display: inline-block;
+	line-height: 36rpx;
+	color: #FFFFFF;
+	font-size: 26rpx;
+	padding: 0 10rpx;
+	border-radius: 18rpx;
+	background-color: #CD282F;
+}
+.nameAndInfo {
+	width: 526rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-left: 24rpx;
+}
+.friName {
+	line-height: 50rpx;
+	padding-top: 10rpx;
+	font-size: 36rpx;
+}
+.lastMsg {
+	color: #888888;
+	font-size: 30rpx;
+	line-height: 40rpx;
+	margin-top: 14rpx;
+}
+

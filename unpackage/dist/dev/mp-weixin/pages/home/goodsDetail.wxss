@@ -1,0 +1,425 @@
+
+.swiper {
+	height: 558rpx;
+}
+.swiper-item {
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #999;
+	color: #fff;
+}
+.swiperBox {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.swiperBox .bannerBg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	overflow: hidden;
+}
+.swiperBox .shardowBox {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .4);
+	z-index: 1;
+}
+.swiperBox .bannerImg {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	z-index: 2;
+}
+.goodsStatusBox {
+	width: 100%;
+	height: 68rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	line-height: 68rpx;
+	background-color: #DDDDDD;
+}
+.statusLabel {
+	display: block;
+	width: 208rpx;
+	font-size: 30rpx;
+	text-align: center;
+	color: #ffffff;
+}
+.statusLabel1 {
+	background: #00BBC3;
+}
+.statusLabel2 {
+	background: #CD282F;
+}
+.statusLabel3 {
+	background: #999999;
+}
+.statusTime {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding-left: 30rpx;
+	color: #222222;
+	font-size: 28rpx;
+	background: #DDDDDD;
+}
+.goodsInfoBox {
+	padding: 20rpx 30rpx 30rpx 30rpx;
+}
+.goodsList {
+	padding: 30rpx 30rpx 0 30rpx;
+}
+.goodsTitle {
+	font-size: 34rpx;
+	color: #222222;
+	line-height: 48rpx;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.goodsJoinNum {
+	font-size: 26rpx;
+	color: #555555;
+	line-height: 36rpx;
+	margin-top: 10rpx;
+}
+.goodsJoinNum .backslash {
+	color: #B8B8B8;
+	padding: 0 10rpx;
+}
+.startingPrice {
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+}
+.assPrice {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	margin-top: 10rpx;
+}
+.priceLabel {
+	display: block;
+	width: 100rpx;
+	font-size: 26rpx;
+	color: #B8B8B8;
+}
+.priceCont {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.startingPrice .priceLabel {
+	font-size: 28rpx;
+	line-height: 50rpx;
+}
+.startingPrice .amount {
+	font-size: 48rpx;
+}
+.startingPrice .priceCont {
+	color: #00BBC3;
+}
+.inPrice .priceCont {
+	color: #CD282F;
+}
+.endPrice .priceCont {
+	color: #CD282F;
+}
+.assPrice .priceCont {
+	color: #222222;
+	font-size: 28rpx;
+}
+.noPrice {
+	line-height: 50rpx;
+}
+.navs {
+	height: 90rpx;
+	width: 100%;
+	-webkit-box-shadow: 0 9rpx 25rpx 0 #E5E5E5;
+	        box-shadow: 0 9rpx 25rpx 0 #E5E5E5;
+	background-color: #fff;
+}
+.navsFixed {
+	position: fixed;
+	left: 0;
+	top: 68rpx;
+	z-index: 999;
+}
+.navItem {
+	width: 33.3%;
+	height: 90rpx;
+	position: relative;
+	text-align: center;
+	line-height: 90rpx;
+	color: #555555;
+	font-size: 28rpx;
+	float: left;
+}
+.navItem.navActive {
+	color: #CD282F;
+}
+.navItem.navActive::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 52rpx;
+	height: 6rpx;
+	background: #CD282F;
+	border-radius: 2rpx;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.infoList {
+	padding: 30rpx;
+	overflow: hidden;
+}
+.infoListItem {
+	width: 50%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding-right: 20rpx;
+	font-size: 24rpx;
+	color: #222222;
+	line-height: 50rpx;
+	float: left;
+}
+.descBox {
+	border-top: 1rpx solid #eaeaea;
+	padding: 30rpx;
+}
+.descBoxHead {
+	font-size: 28rpx;
+	color: #CD282F;
+}
+.descBoxCont {
+	height: 480rpx;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 70rpx;
+	margin-top: 20rpx;
+}
+.descIsOpen {
+	height: auto !important;
+	max-height: inherit !important;
+}
+.descLookAll {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 120rpx;
+	padding-top: 60rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	color: #B8B8B8;
+	font-size: 24rpx;
+	line-height: 54rpx;
+	text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .3)), color-stop(rgba(255, 255, 255, 1)), to(rgba(255, 255, 255, 1)));
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+	background: linear-gradient(to bottom, rgba(255, 255, 255, .3), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+}
+.descIsOpen .descLookAll {
+	height: 70rpx;
+	background: #ffffff;
+	padding-top: 10rpx;
+}
+.descLookAll .descLookAllText {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 5rpx;
+}
+.descLookAll .arrowIcons {
+	display: inline-block;
+	vertical-align: middle;
+}
+.tabBox2,
+.tabBox3 {
+	border-top: 20rpx solid #F7F7F7;
+	padding: 30rpx 0;
+}
+.tabBoxHead {
+	color: #555555;
+	font-size: 28rpx;
+	line-height: 35rpx;
+	padding-left: 30rpx;
+}
+.priceTable {
+	position: relative;
+	margin-top: 20rpx;
+	padding-bottom: 70rpx;
+	max-height: 280rpx;
+	overflow: hidden;
+}
+.tableHead {
+	height: 70rpx;
+	line-height: 70rpx;
+	border-bottom: 1rpx solid #DDDDDD;
+}
+.tableHead .td {
+	font-size: 24rpx;
+	color: #888888;
+	float: left;
+	text-align: center;
+}
+.td1 {
+	width: 130rpx;
+}
+.td2 {
+	width: 140rpx;
+}
+.td3 {
+	width: 190rpx;
+}
+.td4 {
+	width: 290rpx;
+}
+.tableCont .td {
+	color: #222222;
+	float: left;
+	font-size: 24rpx;
+	text-align: center;
+	line-height: 40rpx;
+}
+.tableCont {
+	padding-top: 20rpx;
+}
+.tableCont .tr {
+	padding: 16rpx 0;
+	height: 40rpx;
+}
+.offerStatus {
+	width: 92rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	color: #FFFFFF;
+	background: #DDDDDD;
+	border-radius: 8rpx;
+	font-size: 24rpx;
+	margin: 0 auto;
+}
+.isFirst {
+	background: #CD282F;
+}
+.hasDone {
+	background: #D8AF60;
+}
+.statusFixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.consultantBtns {
+	position: fixed;
+	right: 30rpx;
+	bottom: 40rpx;
+	width: 116rpx;
+	height: 272rpx;
+	z-index: 99;
+}
+.consultBtn {
+	width: 116rpx;
+	height: 116rpx;
+	border-radius: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 0 20rpx 2rpx rgba(193, 193, 193, .2);
+	        box-shadow: 0 0 20rpx 2rpx rgba(193, 193, 193, .2);
+	margin-top: 20rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.consultBtn2 {
+	background-color: #CD282F;
+}
+.consultBtnImg {
+	width: 44rpx;
+	height: 44rpx;
+}
+.consultBtn .consultBtnText {
+	line-height: 40rpx;
+	font-size: 24rpx;
+}
+.hasFollow .consultBtnText {
+	color: #CD282F;
+}
+.consultBtn2 .consultBtnText {
+	color: #FFFFFF;
+}
+.noRecord {
+	height: 360rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.noRecord .noRecordImg {
+	width: 200rpx;
+}
+.noRecord .noRecordText {
+	color: #B8B8B8;
+	font-size: 24rpx;
+	line-height: 34rpx;
+	margin-top: 20rpx;
+	display: block;
+}
+

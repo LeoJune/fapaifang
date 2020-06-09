@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新增员工",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

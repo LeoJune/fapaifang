@@ -1,0 +1,18 @@
+
+.recordAddCont{
+	padding: 30rpx 30rpx 140rpx 30rpx;
+}
+.title-contents{
+	height: calc(25px + 92rpx);
+}
+.titles{
+	height: 92rpx;
+	z-index: 998;
+}
+.title-contents .backIocn {
+	line-height: 60rpx;
+}
+.recordAddTextArea{
+	height: 100rpx;
+}
+

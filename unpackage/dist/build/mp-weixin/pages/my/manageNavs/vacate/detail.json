@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "腾退详情页",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

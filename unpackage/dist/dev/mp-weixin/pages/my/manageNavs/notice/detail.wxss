@@ -1,0 +1,17 @@
+
+.noticeDetailTitle {
+	font-size: 34rpx;
+	color: #222222;
+}
+.noticeDetailCont {
+	font-size: #555555;
+	color: #555555;
+	margin-top: 30rpx;
+	line-height: 42rpx;
+}
+.times{
+	color: #999999;
+	font-size: 24rpx;
+	margin-top: 10rpx;
+}
+

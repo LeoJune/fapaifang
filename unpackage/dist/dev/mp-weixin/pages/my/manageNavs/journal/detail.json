@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "日志详情",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-rate": "/components/uni-rate/uni-rate"
+  }
+}

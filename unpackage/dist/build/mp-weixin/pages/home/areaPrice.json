@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "区域均价",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

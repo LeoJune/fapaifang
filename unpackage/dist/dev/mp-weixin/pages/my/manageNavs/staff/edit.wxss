@@ -1,0 +1,36 @@
+
+.content {
+	padding: 30rpx;
+}
+.userPicBox {
+	position: relative;
+	width: 160rpx;
+	height: 150rpx;
+}
+.userPicImg {
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 100%;
+}
+.cameraIcon {
+	position: absolute;
+	width: 80rpx;
+	height: 80rpx;
+	bottom: -6rpx;
+	right: -10rpx;
+}
+.userForm {
+	margin-top: 20rpx;
+}
+.formHead {
+	font-size: 44rpx;
+	color: #222222;
+	padding: 28rpx 0;
+	line-height: 40rpx;
+}
+.subBtn {
+	height: 92rpx;
+	font-size: 32rpx;
+	margin: 30rpx;
+}
+

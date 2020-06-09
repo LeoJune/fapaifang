@@ -1,0 +1,14 @@
+
+page{
+	background-color: #F7F7F7;
+}
+.headerBox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.searchInputBox {
+	margin-left: 0;
+}
+
+

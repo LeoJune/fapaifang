@@ -1,0 +1,9 @@
+
+.czBtns{
+	width: 76rpx !important;
+}
+.editerName{
+	color: #00BBC3;
+	margin:0 10rpx;
+}
+
